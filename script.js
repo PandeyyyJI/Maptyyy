@@ -126,10 +126,7 @@ class App {
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(this.#map);
 
-    L.marker(coords)
-      .addTo(this.#map)
-      .bindPopup(' 📍 Current Location')
-      .openPopup();
+    L.marker(coords).addTo(this.#map).bindPopup('Current Location').openPopup();
 
     //This on() method is not a javascript method it is a leaflet method.
     //It handles click on map
