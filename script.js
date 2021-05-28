@@ -128,7 +128,7 @@ class App {
 
     L.marker(coords)
       .addTo(this.#map)
-      .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+      .bindPopup(' 📍 Current Location')
       .openPopup();
 
     //This on() method is not a javascript method it is a leaflet method.
